@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+    height: 0;
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+main{
+    min-height: 100%;
+    margin-bottom: -100px;
+    margin-top: -40px;
+}
+body{
+    background: #F5F5F5;
+}
+.header{
+    width: 100%;
+    background: #ffffff;
+    height: 50px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.1);
+}
+.nav{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav h1{
+    float: left;
+}
+.nav h1 a{
+    display: inline-block;
+    margin-top: 6px;
+    width: 120px;
+    height: 38px;
+    background: url("../img/baidu.png") no-repeat;
+    background-size: 100% 100%;
+}
+.nav ul{
+    height: 50px;
+    float: right;
+}
+.nav ul li{
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding-left: 20px;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.left{
+    width: 842px;
+    float: left;
+}
+.right{
+    float: right;
+}
+.main-left{
+    float: left;
+    margin-top: 30px;
+    width: 800px;
+    /*height: 300px;*/
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.1);
+}
+.main-left h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+.main-left h4{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 8px 0;
+    color: #656F6F;
+}
+.article-des span{
+    font-size: 16px;
+    color: #656F6F;
+    margin: 8px auto;
+}
+.article{
+    text-indent: 2rem;
+    margin-top: 10px;
+}
+.article img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.figure{
+    margin-top: 10px;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #252323;
+}
+.figure figcaption{
+    text-align: center;
+}
+.figure img{
+    width: 100%;
+    height: 100%;
+}
+.table{
+    width: 100%;
+}
+.table tr{
+    height: 30px;
+    line-height: 30px;
+}
+.table tr th{
+    color: white;
+    background: #252323;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #252323;
+}
+.footer div{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer div span{
+    text-align: center;
+    color: white;
+    display: block;
+    height: 100px;
+    line-height: 100px;
+}
+.main-right{
+    float: right;
+    margin-top: 30px;
+    width: 300px;
+    /*height: 300px;*/
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.1);
+}
+.main-right i{
+
+    margin: 6px 10px 6px 0;
+    width: 2px;
+    height: 30px;
+    background: #656F6F;
+    display: inline-block;
+    float: left;
+}
+.main-right .info{
+    padding: 0 0 0 10px;
+}
+
+.main-right .info h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.main-right .info h4{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 8px 0;
+    color: #656F6F;
+}
+.info ul li{
+    margin: 10px 0;
+}
+.info ul li label{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+input[type='text']{
+    width: 150px;
+    height: 20px;
+    padding: 4px;
+    outline: none;
+    border: 1px solid #252323;
+    border-radius: 2px;
+}
+.info ul li span{
+    padding-right: 10px;
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #656F6F;
+}
+.info ul li .sex label{
+    padding-right: 5px;
+    width: 20px;
+}
+.sex {
+    width: 160px;
+    float: right;
+    padding-right: 50px;
+}
+.sex b{
+    float: left;
+    padding-left: 15px;
+}
+.hobby{
+    /*float: right;*/
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+.hobby-info{
+    float: right;
+}
+
+.hobby-info .hobby-des{
+    width: 50px;
+}
+textarea{
+    margin-top: 10px;
+    float: right;
+    max-width: 160px;
+    display: block;
+}
+.btn{
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 34px;
+    background: deepskyblue;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
